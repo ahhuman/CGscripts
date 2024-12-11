@@ -23,6 +23,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         file_name = sys.argv[1]
     else:
-        file_name = "Houdini File"
+        file_name = "Type of File"
     
     send_discord_message(file_name)
