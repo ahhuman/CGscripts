@@ -26,7 +26,7 @@ Once Python is installed, install the _requests_ library in a terminal window:
 
 Navigate to _Server Settings_ and look for _Integrations_
 
-![[webhook02.png]]![[webhook03.png]]
+![server settings](images/webhook02.png)![integrations](images/webhook03.png)
 
 
 Create a new Webhook and give it a name and an icon if you wish
@@ -40,7 +40,7 @@ Optional: Set up Webhooks per application to allow for a unique icon per notific
 Press _Copy Webhook URL_ and it will add it to your clipboard
 
 Replace _"webhookurl"_ with the URL of your Discord Webhook
-![[webhook04.png]]
+![discord webhook page](images/webhook04.png)
 
 That's it! Your script should now send a Discord message to the channel once we set up the scripts in our applications
 
@@ -58,7 +58,7 @@ Currently, the script is tested to work with Houdini, Fusion, and Blender, but i
 python "pathtoyourscriptfile" "$HIPNAME"
 ```
 
-![[houdiniusdscreen01.png]]
+![houdini usd rop](images/houdiniusdscreen01.png)
 
 ### 2. Fusion
 
@@ -82,7 +82,7 @@ python "pathtoyourscriptfile" "$HIPNAME"
 }
 ```
 
-![[fusionscript01.png]]
+![fusion command node](images/fusionscript01.png)
 - Navigate to the _End Command_ tab
 
 - Replace "pathtoyourscriptfile" with the ".py" file on your system
@@ -100,12 +100,11 @@ python "pathtoyourscriptfile" "$HIPNAME"
 - Install the _run_script_on_finish_addon.py_ add-on in Blender. In versions of Blender 4.2 and higher, navigate to the top right and choose _Install from Disk_
 
 
-![[blenderaddon01.png]]
-
+![blenderprefs01](images/blenderaddon01.png)
 - Select where your script is located in the _Script Path_ box
 
 - Test the script using either the _Test Script_ button or by rendering a scene
 
 - Blender will pass the name of the currently open _.blend_ file to the Discord Bot
 
-![[blenderaddon02.png]]
+![blenderprefs02](images/blenderaddon02.png)
