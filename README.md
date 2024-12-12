@@ -12,7 +12,8 @@ Sometimes it's nice to be able to setup a long render and you can go do somethin
 ### Install Python 
 
 [Download and install Python](https://www.python.org/downloads/) making sure it's accessible in the system PATH
-	tip: when installing Python you can check _Add Python 3.xx to PATH_
+
+- tip: when installing Python you can check _Add Python 3.xx to PATH_
 
 Once Python is installed, install the _requests_ library in a terminal window:
 ```
@@ -32,15 +33,17 @@ Navigate to _Server Settings_ and look for _Integrations_
 Create a new Webhook and give it a name and an icon if you wish
 
 Optional: Set up Webhooks per application to allow for a unique icon per notification
-	Note: This requires duplicates of the script that each program will run, the only change being unique Webhooks per program
+- Note: This requires duplicates of the script that each program will run, the only change being unique Webhooks per program
 
 
 ![discord integrations page](images/webhook01.png)
 
 Press _Copy Webhook URL_ and it will add it to your clipboard
 
-Replace _"webhookurl"_ with the URL of your Discord Webhook
+
 ![discord webhook page](images/webhook04.png)
+
+Replace _"webhookurl"_ with the URL of your Discord Webhook
 
 That's it! Your script should now send a Discord message to the channel once we set up the scripts in our applications
 
@@ -87,8 +90,8 @@ python "pathtoyourscriptfile" "$HIPNAME"
 
 - Replace "pathtoyourscriptfile" with the ".py" file on your system
 
-- Currently, using this script in Fusion requires manually entering the name of the file
-	Replace "yourcompname" with the name of your comp
+	 ## Currently, using this script in Fusion requires manually entering the name of the file
+- Replace "yourcompname" with the name of your comp
 
 
 
